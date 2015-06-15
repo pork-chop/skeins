@@ -1,0 +1,27 @@
+/*
+Theme Name: Skeins Theme
+Theme URI: http: //skeins.com/
+Description: A child theme for Skeins, built from Storefront.
+Author: Amy Dalrymple
+Author URI: http: //skeins.com/
+Template: storefront
+Version: 0.1
+*/
+
+@import url("../storefront/style.css");
+
+/*
+Skeins Red:     #bd2843;
+text color:     ##444444;
+
+from Kuler:
+darker red:     #993D4E;
+purple:         #E600FF;
+yellow-green:   #DDFF40;
+nature-y green: #CCC314;    
+*/
+
+// Base
+@import 'sass/base/base';
+
+@import 'sass/base/768up';
